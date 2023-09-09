@@ -1,0 +1,12 @@
+header {
+  color: white;
+	background-color: #727272;
+	border-radius: 1%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: left;
+}
