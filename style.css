@@ -15,7 +15,7 @@ header h4 {
 	margin-left: 1%;
 }
 #intro {
-	background-image: liner-gradient(grey, white, grey);
+	background-image: linear-gradient(#727272, #ebebeb);
 	padding-top: 7%;
 }
 #introcon {
