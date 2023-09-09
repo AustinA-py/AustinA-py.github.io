@@ -1,14 +1,24 @@
 header {
   color: white;
 	background-color: #727272;
-	padding-top: 2px;
-	padding-bottom: 2px;
+	height: 5%;
+	font-size: 1.25 rem;
+	padding-top: 1%;
+	padding-bottom: 1%;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	text-align: left;
+	margin-left: 5%;
 }
 header h1 {
 	padding-left: 15px;
+}
+#intro {
+	background-image: liner-gradient(#727272, #ebebeb)
+	padding-top: 7%
+}
+#introcon {
+	margin: 25%
 }
