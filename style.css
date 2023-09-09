@@ -10,15 +10,15 @@ header {
 	left: 0;
 	width: 100%;
 	text-align: left;
-	margin-left: 5%;
 }
 header h1 {
-	padding-left: 15px;
+	margin-left: 1%;
 }
 #intro {
-	background-image: liner-gradient(#727272, #ebebeb)
-	padding-top: 7%
+	background-image: liner-gradient(#727272, #ebebeb);
+	padding-top: 7%;
 }
 #introcon {
-	margin: 25%
+	text-align: center;
+	margin-top: 20%;
 }
