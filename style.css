@@ -11,11 +11,11 @@ header {
 	width: 100%;
 	text-align: left;
 }
-header h1 {
+header h4 {
 	margin-left: 1%;
 }
 #intro {
-	background-image: liner-gradient(#727272, #ebebeb);
+	background-image: liner-gradient(grey, white, grey);
 	padding-top: 7%;
 }
 #introcon {
