@@ -1,7 +1,6 @@
 header {
   color: white;
 	background-color: #727272;
-	border-radius: 1%;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	position: fixed;
@@ -9,4 +8,7 @@ header {
 	left: 0;
 	width: 100%;
 	text-align: left;
+}
+header h1 {
+	padding-left: 15px;
 }
