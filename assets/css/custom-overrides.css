@@ -1,0 +1,55 @@
+/* Custom overrides to selectively remove blue line hover effects */
+
+/* Remove dotted border from most links but keep some behaviors */
+a {
+    border-bottom: none !important;
+}
+
+/* Remove blue color hover effects from general links, but allow specific elements */
+a:hover {
+    border-bottom: none !important;
+    color: inherit !important;
+}
+
+a:active {
+    color: inherit !important;
+}
+
+/* Remove hover effects from buttons */
+input[type="submit"]:hover, 
+input[type="reset"]:hover,
+input[type="button"]:hover,
+button:hover,
+.button:hover {
+    box-shadow: none !important;
+    color: inherit !important;
+}
+
+/* Allow header elements to keep their underlines and hover effects */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    border-bottom: dotted 1px !important;
+    transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out !important;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    border-bottom-color: transparent !important;
+    color: #9bf1ff !important;
+}
+
+/* Allow social media icons to turn blue on hover */
+.icons a.icon:hover {
+    color: #9bf1ff !important;
+}
+
+/* Specifically allow GitHub and LinkedIn icons to have blue hover */
+a.icon.brands.alt.fa-github:hover,
+a.icon.brands.alt.fa-linkedin-in:hover {
+    color: #9bf1ff !important;
+}
+
+/* Prevent banner/header backgrounds from changing on hover */
+#banner:hover,
+#header:hover,
+.major:hover {
+    background-color: inherit !important;
+}

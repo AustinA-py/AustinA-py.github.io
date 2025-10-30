@@ -1,0 +1,113 @@
+/*
+	Print Styles for CV Page
+	Optimized for PDF generation and printing
+*/
+
+@media print {
+    /* Hide unnecessary elements */
+    #header, #contact, footer, .actions, #navigation, .no-print {
+        display: none !important;
+    }
+    
+    /* Reset page styles for print */
+    body {
+        background: white !important;
+        color: black !important;
+        font-size: 12pt;
+        line-height: 1.4;
+    }
+    
+    /* Banner styling for print */
+    #banner {
+        background: none !important;
+        color: black !important;
+        padding: 2em 0 1em 0 !important;
+        page-break-inside: avoid;
+    }
+    
+    #banner h1 {
+        color: black !important;
+        font-size: 24pt;
+        margin-bottom: 0.5em;
+    }
+    
+    #banner p {
+        color: black !important;
+        font-size: 14pt;
+    }
+    
+    /* Main content styling */
+    #main {
+        background: none !important;
+    }
+    
+    #main > * > .inner {
+        padding: 1em 0 !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    
+    /* Section headers */
+    .major h2 {
+        color: black !important;
+        font-size: 18pt;
+        border-bottom: 2px solid #333;
+        padding-bottom: 0.25em;
+        margin-bottom: 0.75em;
+        page-break-after: avoid;
+    }
+    
+    /* Job titles and education */
+    h3 {
+        color: black !important;
+        font-size: 14pt;
+        margin-bottom: 0.25em;
+        page-break-after: avoid;
+    }
+    
+    /* Lists */
+    ul {
+        margin: 0.5em 0 1em 1em;
+    }
+    
+    li {
+        margin-bottom: 0.25em;
+        page-break-inside: avoid;
+    }
+    
+    /* Skills grid */
+    .row {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        margin: 0 !important;
+    }
+    
+    .col-6 {
+        width: 48% !important;
+        margin-right: 2% !important;
+        break-inside: avoid;
+    }
+    
+    /* Page breaks */
+    section {
+        page-break-inside: avoid;
+        margin-bottom: 1.5em;
+    }
+    
+    /* Remove shadows and effects */
+    * {
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    
+    /* Ensure good contrast */
+    p, li {
+        color: black !important;
+    }
+    
+    /* Contact info in header */
+    #banner .content p {
+        font-weight: bold;
+        font-size: 12pt;
+    }
+}

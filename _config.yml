@@ -1,0 +1,9 @@
+# GitHub Pages configuration
+theme: jekyll-theme-minimal
+title: Austin Averill - GIS Developer
+description: A dedicated GIS Developer with ample experience designing custom solutions and automations for small to medium sized organizations.
+
+# Exclude directories from Jekyll processing
+exclude:
+  - miscresource/
+  - README.md
